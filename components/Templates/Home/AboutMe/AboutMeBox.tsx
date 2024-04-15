@@ -1,7 +1,7 @@
 import { Chip } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
-import myProfile from "@/public/images/myProfile2.jpeg";
+import myProfile from "@/public/images/myProfile2.webp";
 
 export default function AboutMeBox() {
   return (
@@ -22,7 +22,7 @@ export default function AboutMeBox() {
               src={myProfile}
               className="z-10 w-[80%] sm:w-[60%] md:w-full mx-auto relative border-[10px] border-lightGray-50 dark:border-darkGray-50"
             />
-            <div className="absolute -translate-y-[95%] sm:-translate-y-[93%] md:-translate-y-[96%] lg:-translate-y-[97%]  translate-x-[3%] sm:translate-x-[21%] md:-translate-x-[5%] w-[95%] sm:w-[71%] md:w-[92%] h-[90%] sm:h-[92%] md:h-[32%] lg:h-[57%] xl:h-[95%] bg-lightGray-200 dark:bg-darkGray-200"></div>
+            <div className="absolute -translate-y-[90%] md:-translate-y-[93%] lg:-translate-y-[93%]  translate-x-[3%] sm:translate-x-[21%] md:-translate-x-[7%] w-[95%] sm:w-[71%] md:w-[92%] h-[90%] sm:h-[92%] md:h-[22%] lg:h-[37%] xl:h-[64%] 2xl:h-[88%] bg-lightGray-200 dark:bg-darkGray-200"></div>
           </div>
           <div className="md:col-span-1"></div>
           <div className="mt-16 md:mt-0 md:col-span-3 text-pretty">

@@ -36,7 +36,7 @@ export async function getStaticProps() {
   );
 
   const getExperiences = await fetch(
-    "https://660fd6760640280f219b9363.mockapi.io/api/experiences"
+    "https://661d26d1e7b95ad7fa6c4e27.mockapi.io/api/experiences"
   );
 
   const skills = await getSkills.json();

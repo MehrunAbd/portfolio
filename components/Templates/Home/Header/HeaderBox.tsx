@@ -38,6 +38,9 @@ export default function HeaderBox() {
               alt=""
               width={25}
               className="cursor-pointer"
+              onClick={() =>
+                (window.location.href = "https://github.com/mehranAbedi")
+              }
             />
             <Image
               src={twitterIcon}
@@ -50,12 +53,20 @@ export default function HeaderBox() {
               alt=""
               width={20}
               className="cursor-pointer"
+              onClick={() =>
+                (window.location.href =
+                  "https://stackoverflow.com/users/24356730/mehran-abedi")
+              }
             />
             <Image
               src={linkedinIcon}
               alt=""
               width={20}
               className="cursor-pointer"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.linkedin.com/in/mehran-abedi-80b7ab280/")
+              }
             />
           </div>
         </div>

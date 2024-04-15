@@ -2,13 +2,13 @@ import { Card, CardBody, CardHeader } from "@nextui-org/react";
 import React from "react";
 import Image from "next/image";
 import { experiences } from "@/interfaces/experiences.interface";
+import companyImage from "@/public/images/companies/freelancer.webp";
 
 export default function ExperienceCard({
   position,
   startAt,
   endAt,
   description,
-  companyImage,
 }: experiences) {
   const startDate = new Date(startAt * 1000).toLocaleDateString("en-US", {
     month: "long",
