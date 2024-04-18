@@ -1,7 +1,6 @@
 import {
   Button,
   Divider,
-  NavbarBrand,
   NavbarContent,
   NavbarItem,
   NavbarMenu,
