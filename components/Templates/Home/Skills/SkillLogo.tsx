@@ -11,8 +11,8 @@ export default function SkillLogo({ title, icon }: skills) {
         width={20}
         height={20}
         style={{
-          aspectRatio: "2",
           objectFit: "contain",
+          height: "100px",
         }}
       />
       <p className="text-lightGray-600 dark:text-darkGray-600 text-sm mt-2">

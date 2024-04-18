@@ -28,14 +28,16 @@ export default function FooterTop() {
         <Snippet
           symbol={<Image src={inboxIcon} alt="" width={20} />}
           variant="flat"
+          className="font-interSemiBold text-lg"
         >
-          <p className="font-interSemiBold text-lg">mhunprg8@gmail.com</p>
+          mhunprg8@gmail.com
         </Snippet>
         <Snippet
           symbol={<Image src={phoneIcon} alt="" width={20} />}
           variant="flat"
+          className="font-interSemiBold text-lg"
         >
-          <p className="font-interSemiBold text-lg">+989159848476</p>
+          +989159848476
         </Snippet>
         <NewsLetterForm />
         <p className="text-xs mt-6">You may also find me on these platforms!</p>
@@ -71,7 +73,8 @@ export default function FooterTop() {
             width={20}
             className="cursor-pointer"
             onClick={() =>
-              (window.location.href = "https://www.linkedin.com/in/mehran-abedi-80b7ab280/")
+              (window.location.href =
+                "https://www.linkedin.com/in/mehran-abedi-80b7ab280/")
             }
           />
         </div>
