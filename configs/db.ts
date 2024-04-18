@@ -6,7 +6,7 @@ const connectToDB = async () => {
       return true;
     } else {
       await mongoose.connect(
-        "mongodb://aryankholqi:65DVkOr1aNgyIW1h@ac-thwrj2x-shard-00-00.dk957xw.mongodb.net:27017,ac-thwrj2x-shard-00-01.dk957xw.mongodb.net:27017,ac-thwrj2x-shard-00-02.dk957xw.mongodb.net:27017/portfolio?replicaSet=atlas-kf76s5-shard-0&ssl=true&authSource=admin"
+        "mongodb://mhunprg8:GPSdJKxyzkqlgK3c@ac-nqe3k8h-shard-00-00.iluibxg.mongodb.net:27017,ac-nqe3k8h-shard-00-01.iluibxg.mongodb.net:27017,ac-nqe3k8h-shard-00-02.iluibxg.mongodb.net:27017/portfolio?replicaSet=atlas-6y6mlo-shard-0&ssl=true&authSource=admin"
       );
       console.log("Connect To DB Successfully :))");
     }
